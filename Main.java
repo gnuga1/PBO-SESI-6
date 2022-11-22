@@ -39,15 +39,6 @@ public class Main {
                         break;
                     case 3:
                         System.out.print("Masukkan jari-jari: ");
-                        double jariJari = input.nextDouble();
-                        Bola bola = new Bola(jariJari);
-                        bola.volume();
-                        bola.luasPermukaan();
-                        System.out.printf("Volume: %.2f\n", bola.getVolume());
-                        System.out.printf("Luas Permukaan: %.2f\n", bola.getLuasPermukaan());
-                        break;
-                    case 4:
-                        System.out.print("Masukkan jari-jari: ");
                         jariJari = input.nextDouble();
                         System.out.print("Masukkan tinggi: ");
                         tinggi = input.nextDouble();
@@ -58,7 +49,7 @@ public class Main {
                         System.out.printf("Luas Permukaan: %.2f\n", tabung.getLuasPermukaan());
                         break;
 
-case 5:
+case 4:
                         System.exit(0);
                         break;
                     default:
